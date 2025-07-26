@@ -1,0 +1,14 @@
+{
+	"id": "MinimalistMod",
+	"name": "Minimalist",
+	"display_name": "[M]inimalist]",
+	"author": ["CephaoftheDromes"],
+	"description": "A joke mod for the Cryptid mod",
+	"prefix": "Min",
+	"main_file": "Minimalist.lua",
+	"priority": 0,
+	"badge_colour": "fda914",
+	"badge_text_colour": "000000",
+	"version": "1.0.0",
+	"dependencies": []
+}
