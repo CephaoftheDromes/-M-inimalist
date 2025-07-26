@@ -1,0 +1,21 @@
+[manifest]
+version = "1.0.0"
+priority = 0
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = '''
+if G.SPLASH_FRONT then
+            love.graphics.push()
+            G.SPLASH_FRONT:translate_container()
+            G.SPLASH_FRONT:draw()
+            love.graphics.pop()
+        end
+'''
+position = "after"
+payload = '''
+Supf_DrawEverything()
+'''
+match_indent = true
+times = 1
